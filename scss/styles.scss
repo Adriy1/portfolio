@@ -413,7 +413,7 @@ footer {
         typingAnim 0.75s steps(10),
         blinking-cursor .5s step-end 2;
         animation-fill-mode: forwards;
-        animation-delay: 0.5s;
+        animation-delay: 1s;
       }
 
 
@@ -429,7 +429,7 @@ footer {
         animation:
         typingAnim 1s steps(10),
         blinking-cursor .5s step-end 10;
-        animation-delay: 1.5s;
+        animation-delay: 2s;
         animation-fill-mode: forwards;
     }
 
@@ -672,7 +672,7 @@ footer {
     text-align: left;
     background: white;
     border-radius: 0.4em;
-    
+
 
     h3 {
         font-weight: 500;
