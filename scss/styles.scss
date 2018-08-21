@@ -519,11 +519,13 @@ footer {
         color: $heading;
     }
 
-    p {
+    p,li{
         color: $text;
         margin: 0;
         text-align: left;
     }
+
+
 }
 
 .profile {
