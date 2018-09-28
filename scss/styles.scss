@@ -413,7 +413,7 @@ footer {
         typingAnim 0.75s steps(10),
         blinking-cursor .5s step-end 2;
         animation-fill-mode: forwards;
-        animation-delay: 1s;
+        animation-delay: 0.3s;
       }
 
 
@@ -429,7 +429,7 @@ footer {
         animation:
         typingAnim 1s steps(10),
         blinking-cursor .5s step-end 10;
-        animation-delay: 2s;
+        animation-delay: 1.3s;
         animation-fill-mode: forwards;
     }
 

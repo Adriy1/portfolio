@@ -10,6 +10,12 @@
     portfolio website.
 */
 
+$(window).on("load", function(){
+    // '#yourElement' this is the id of the html element you want to animate.
+    // you can also use any other selector as well.
+    $('#lead-content').addClass('animated typingAnim blinking-cursor');
+});
+
 (function($) {
 
     // Remove no-js class
