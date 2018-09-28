@@ -10,19 +10,11 @@
     portfolio website.
 */
 
-$('div#lead').waitForImages({
-    waitForAll: true,
-    finished: function() {
-        //do animation here.
-        $('#lead').addClass('animated typingAnim blinking-cursor');
-    }
+$(window).on("load", function(){
+    // alert('All images are loaded.');
+    $("h1:first-of-type").addClass('animation');
+    setTimeout(function(){   $("h2:first").addClass('animation'); }, 2000);
 });
-
-// $(window).on("load", function(){
-//     // '#yourElement' this is the id of the html element you want to animate.
-//     // you can also use any other selector as well.
-//     $('#lead-content').addClass('animated typingAnim blinking-cursor');
-// });
 
 (function($) {
 
