@@ -17,7 +17,7 @@
 // });
 $("#lead").waitForImages( function(){
     // alert('All images are loaded.');
-    $("h1:first-of-type").addClass('animation');
+    $("h1:first").addClass('animation');
     setTimeout(function(){   $("h2:first").addClass('animation'); }, 2000);
 });
 
