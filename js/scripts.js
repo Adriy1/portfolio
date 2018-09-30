@@ -10,16 +10,16 @@
     portfolio website.
 */
 
-// $("#lead").on("load", function(){
-//     alert('All images are loaded.');
-//     $("h1:first-of-type").addClass('animation');
-//     setTimeout(function(){   $("h2:first").addClass('animation'); }, 2000);
-// });
-$("#lead").waitForImages( function(){
-    // alert('All images are loaded.');
-    setTimeout(function(){$("h1:first").addClass('animation');}, 500);
+$(window).on("load", function(){
+    alert('All images are loaded.');
+    $("h1:first-of-type").addClass('animation');
     setTimeout(function(){   $("h2:first").addClass('animation'); }, 2000);
 });
+// $("#lead").waitForImages( function(){
+//     // alert('All images are loaded.');
+//     setTimeout(function(){$("h1:first").addClass('animation');}, 500);
+//     setTimeout(function(){   $("h2:first").addClass('animation'); }, 2000);
+// });
 
 (function($) {
 
