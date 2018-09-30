@@ -17,7 +17,7 @@
 // });
 $("#lead").waitForImages( function(){
     // alert('All images are loaded.');
-    setTimeout(function(){$("h1:first").addClass('animation');}, 500)
+    setTimeout(function(){$("h1:first").addClass('animation');}, 500);
     setTimeout(function(){   $("h2:first").addClass('animation'); }, 2000);
 });
 
